@@ -32,9 +32,9 @@ body{
         border-radius: 3px;
         padding-left: 10px;
         font-size: 70px;
-        color: rgb(65, 62, 62);
+        color: rgb(34, 32, 32);
 }
-span{
+.one{
         color:rgb(218, 84, 84)
 }
 .mission p{
@@ -46,13 +46,21 @@ span{
         color: rgb(41, 39, 39);
 }
 #button{
-        color: black;
-        background-color: rgb(241, 121, 85);
-        border-radius: 5px;
-        box-shadow: rgb(116, 113, 113) 10px 10px 30px;
-        box-decoration:none ;
+        background-color: rgb(241, 121, 85); 
         text-decoration: none;
         padding: 10px 20px;
+        color: rgb(3, 31, 95);
+        border-radius: 5px;
+        font-size: 20px;
+        box-shadow: 20px 20px 30px rgb(71, 70, 70);
+}
+#button:hover{
+         cursor: pointer;
+        background-color: rgb(245, 239, 239);
+        color: rgb(92, 13, 26);  
+}
+.second{
+        color: rgb(52, 122, 87);
 }
 .parent{
         display: flex;
@@ -64,14 +72,29 @@ span{
 #h1{
         text-align: center;
         font-size: 70px;
+        color:rgb(218, 84, 84) ;
+}
+.body{
+        margin-bottom: 20px;
 }
 .Mission-detail{
         border: olive solid 3px;
-        height: 530px;
+        height: 150%;
         width: 450px;
-        background-color: silver;
+        background-color: rgb(218, 182, 182);
         padding: 10px;
         text-align: justify;
+        border-radius: 9px;
+        border-style: none;
+
+}
+.Mission-detail h1{
+        font-size: 60px;
+        color: rgb(24, 41, 71);
+}
+.Mission-detail p{
+        color: rgb(0, 0, 0);
+        font-weight: 800;
 }
 #pic-1{
         position: relative;
@@ -87,6 +110,17 @@ span{
         width: 450px;  
         padding: 10px;
         text-align: justify;
+        border-radius: 9px;
+        border-style: none;
+        background-color: rgb(211, 210, 210);
+}
+.Aim-detail h1{
+        font-size: 60px;
+        color: rgb(24, 41, 71);
+}
+.Aim-detail p{
+        color: rgb(0, 0, 0);
+        font-weight: 800;    
 }
 #pic-2{
         position: relative;
@@ -98,11 +132,22 @@ span{
 }
 .goal{
         border: olive solid 3px;
-        height: 520px;px;;
+        height: 100%;
         width: 450px; 
         padding: 10px;
         text-align: justify;
-}     
+        border-radius: 9px;
+        border-style: none;
+        background-color: rgb(228, 208, 175);
+}    
+.goal h1{
+         font-size: 60px;
+        color: rgb(24, 41, 71);
+}
+.goal p{
+        color: rgb(0, 0, 0);
+        font-weight: 800;   
+}
 #pic-3{
            position: relative;
         width: 350px;
@@ -112,3 +157,43 @@ span{
         padding-bottom: 5px; 
 }
 
+.photo-div img{
+        width:80%;
+        height: 100%;
+}
+.last{
+        display: flex;
+        margin: 0% auto;
+        width: 80%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+}
+.content-div{
+        width: 100%;
+      height: 100%;
+      margin-top: 10%;
+}
+.content-div h1{
+        font-size: 60px;
+        color: rgb(136, 76, 60);
+}
+.content-div p{
+        color: rgb(44, 42, 42);
+       font-size: 20px;
+       font-weight: 700;
+       text-align: justify;
+}
+.link-button{
+        background-color: rgb(241, 121, 85); 
+        text-decoration: none;
+        padding: 10px 20px;
+        color: rgb(3, 31, 95);
+        border-radius: 5px;
+        font-size: 20px;
+        box-shadow: 20px 20px 30px rgb(71, 70, 70);
+}
+.link-button:hover{
+        cursor: pointer;
+        background-color: rgb(245, 239, 239);
+        color: rgb(92, 13, 26);
+}
