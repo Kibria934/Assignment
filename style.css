@@ -5,6 +5,9 @@ body{
         font-family: 'Raleway', sans-serif;
         font-family: 'Ubuntu', sans-serif;
 }
+
+/*Head*/
+
 .tittle{display: flex;
         width: 80%;
         height: auto;
@@ -43,5 +46,69 @@ span{
         color: rgb(41, 39, 39);
 }
 #button{
-        
+        color: black;
+        background-color: rgb(241, 121, 85);
+        border-radius: 5px;
+        box-shadow: rgb(116, 113, 113) 10px 10px 30px;
+        box-decoration:none ;
+        text-decoration: none;
+        padding: 10px 20px;
 }
+.parent{
+        display: flex;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        justify-content: space-around;
+}
+#h1{
+        text-align: center;
+        font-size: 70px;
+}
+.Mission-detail{
+        border: olive solid 3px;
+        height: 530px;
+        width: 450px;
+        background-color: silver;
+        padding: 10px;
+        text-align: justify;
+}
+#pic-1{
+        position: relative;
+        width: 350px;
+        height: 350px;
+        padding-left: 50px;
+        margin: auto;
+}
+
+.Aim-detail{
+        border: olive solid 3px;
+        height: 100%;;
+        width: 450px;  
+        padding: 10px;
+        text-align: justify;
+}
+#pic-2{
+        position: relative;
+        width: 350px;
+        height: 360%;
+        padding-left: 50px;
+        margin: auto;
+        padding-bottom: 5px;
+}
+.goal{
+        border: olive solid 3px;
+        height: 520px;px;;
+        width: 450px; 
+        padding: 10px;
+        text-align: justify;
+}     
+#pic-3{
+           position: relative;
+        width: 350px;
+        height: 340px;;
+        padding-left: 50px;
+        margin: auto;    
+        padding-bottom: 5px; 
+}
+
